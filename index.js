@@ -182,7 +182,7 @@ const {
   })
   }
   app.get("/", (req, res) => {
-  res.send("hey, Hans-Byte-MD started✅");
+  res.send("hey, HonorsBot-MD started✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
